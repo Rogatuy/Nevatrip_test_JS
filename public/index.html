@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nevatrip Test JS_second</title>
+  </head>
+
+  <body class="page-body">
+    <main class="page-body__page-main  page-main">
+      <section class="route">
+        <label for="route">Выберите направление</label>
+        <select name="route" id="route">
+          <option value="AB">из A в B</option>
+          <option value="BA">из B в A</option>
+          <option value="ABA">из A в B и обратно в А</option>
+        </select>
+      </section>
+
+      <section class="time">
+        <label for="time">Выберите время</label>
+        <select name="time" id="time">
+        </select>
+      </section>
+
+      <section class="time-back visually-hidden">
+        <label for="time-back">Выберите обратное время</label>
+      </section>
+
+      <label for="num">Количество билетов</label>
+      <input type="number" id="num" name="tentacles" step="1" min="1" value="1">
+      <button id="answer">Посчитать</button>
+
+      <section class="answer">
+
+      </section>
+    </main>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
