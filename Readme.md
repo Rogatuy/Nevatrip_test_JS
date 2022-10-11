@@ -34,31 +34,31 @@
 
 На странице пользователь сначала должен выбрать направление:
 
-<code><select name="route" id="route"></code>
-  <code><option value="из A в B">из A в B</option></code>
-  <code><option value="из B в A">из B в A</option></code>
-  <code><option value="из A в B и обратно в А">из A в B и обратно в А</option></code>
+<code><select name="route" id="route"></code><br>
+  <code><option value="из A в B">из A в B</option></code><br>
+  <code><option value="из B в A">из B в A</option></code><br>
+  <code><option value="из A в B и обратно в А">из A в B и обратно в А</option></code><br>
 <code></select></code>
 
 
 После чего предлагается пользователю выбрать время. Важно, время показываем в часовом поясе пользователя. Предположим, что на всех его устройствах стоит запрет перевода времени в локальный часовой пояс.
 
 
-<code><label for="time">Выберите время</label></code>
-<code><select name="time" id="time"></code>
-  <code><option value="18:00(из A в B)">18:00(из A в B)</option></code>
-  <code><option value="18:30(из A в B)">18:30(из A в B)</option></code>
-  <code><option value="18:45(из A в B)">18:45(из A в B)</option></code>
-  <code><option value="19:00(из A в B)">19:00(из A в B)</option></code>
-  <code><option value="19:15(из A в B)">19:15(из A в B)</option></code>
-  <code><option value="21:00(из A в B)">21:00(из A в B)</option></code>
-  <code><option value="18:30(из B в A)">18:30(из B в A)</option></code>
-  <code><option value="18:45(из B в A)">18:45(из B в A)</option></code>
-  <code><option value="19:00(из B в A)">19:00(из B в A)</option></code>
-  <code><option value="19:15(из B в A)">19:15(из B в A)</option></code>
-  <code><option value="19:35(из B в A)">19:35(из B в A)</option></code>
-  <code><option value="21:50(из B в A)">21:50(из B в A)</option></code>
-  <code><option value="21:55(из B в A)">21:55(из B в A)</option></code>
+<code><label for="time">Выберите время</label></code><br>
+<code><select name="time" id="time"></code><br>
+  <code><option value="18:00(из A в B)">18:00(из A в B)</option></code><br>
+  <code><option value="18:30(из A в B)">18:30(из A в B)</option></code><br>
+  <code><option value="18:45(из A в B)">18:45(из A в B)</option></code><br>
+  <code><option value="19:00(из A в B)">19:00(из A в B)</option></code><br>
+  <code><option value="19:15(из A в B)">19:15(из A в B)</option></code><br>
+  <code><option value="21:00(из A в B)">21:00(из A в B)</option></code><br>
+  <code><option value="18:30(из B в A)">18:30(из B в A)</option></code><br>
+  <code><option value="18:45(из B в A)">18:45(из B в A)</option></code><br>
+  <code><option value="19:00(из B в A)">19:00(из B в A)</option></code><br>
+  <code><option value="19:15(из B в A)">19:15(из B в A)</option></code><br>
+  <code><option value="19:35(из B в A)">19:35(из B в A)</option></code><br>
+  <code><option value="21:50(из B в A)">21:50(из B в A)</option></code><br>
+  <code><option value="21:55(из B в A)">21:55(из B в A)</option></code><br>
 <code></select></code>
 
 
@@ -67,8 +67,8 @@
 Далее пользователю прелагается выбрать количество билетов и нажать на кнопку "посчитать".
 
 
-<code><label for="num">Количество билетов</label></code>
-<code><input id="num"></code>
+<code><label for="num">Количество билетов</label></code><br>
+<code><input id="num"></code><br>
 <code><button>Посчитать</button></code>
 
 
