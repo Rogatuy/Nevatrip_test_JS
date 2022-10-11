@@ -33,44 +33,44 @@
 Как это должно выглядеть?
 
 На странице пользователь сначала должен выбрать направление:
-<code>
-<select name="route" id="route">
-  <option value="из A в B">из A в B</option>
-  <option value="из B в A">из B в A</option>
-  <option value="из A в B и обратно в А">из A в B и обратно в А</option>
-</select>
-</code>
+
+<code><select name="route" id="route"></code>
+  <code><option value="из A в B">из A в B</option></code>
+  <code><option value="из B в A">из B в A</option></code>
+  <code><option value="из A в B и обратно в А">из A в B и обратно в А</option></code>
+<code></select></code>
+
 
 После чего предлагается пользователю выбрать время. Важно, время показываем в часовом поясе пользователя. Предположим, что на всех его устройствах стоит запрет перевода времени в локальный часовой пояс.
 
-<code>
-<label for="time">Выберите время</label>
-<select name="time" id="time">
-  <option value="18:00(из A в B)">18:00(из A в B)</option>
-  <option value="18:30(из A в B)">18:30(из A в B)</option>
-  <option value="18:45(из A в B)">18:45(из A в B)</option>
-  <option value="19:00(из A в B)">19:00(из A в B)</option>
-  <option value="19:15(из A в B)">19:15(из A в B)</option>
-  <option value="21:00(из A в B)">21:00(из A в B)</option>
-  <option value="18:30(из B в A)">18:30(из B в A)</option>
-  <option value="18:45(из B в A)">18:45(из B в A)</option>
-  <option value="19:00(из B в A)">19:00(из B в A)</option>
-  <option value="19:15(из B в A)">19:15(из B в A)</option>
-  <option value="19:35(из B в A)">19:35(из B в A)</option>
-  <option value="21:50(из B в A)">21:50(из B в A)</option>
-  <option value="21:55(из B в A)">21:55(из B в A)</option>
-</select>
-</code>
+
+<code><label for="time">Выберите время</label></code>
+<code><select name="time" id="time"></code>
+  <code><option value="18:00(из A в B)">18:00(из A в B)</option></code>
+  <code><option value="18:30(из A в B)">18:30(из A в B)</option></code>
+  <code><option value="18:45(из A в B)">18:45(из A в B)</option></code>
+  <code><option value="19:00(из A в B)">19:00(из A в B)</option></code>
+  <code><option value="19:15(из A в B)">19:15(из A в B)</option></code>
+  <code><option value="21:00(из A в B)">21:00(из A в B)</option></code>
+  <code><option value="18:30(из B в A)">18:30(из B в A)</option></code>
+  <code><option value="18:45(из B в A)">18:45(из B в A)</option></code>
+  <code><option value="19:00(из B в A)">19:00(из B в A)</option></code>
+  <code><option value="19:15(из B в A)">19:15(из B в A)</option></code>
+  <code><option value="19:35(из B в A)">19:35(из B в A)</option></code>
+  <code><option value="21:50(из B в A)">21:50(из B в A)</option></code>
+  <code><option value="21:55(из B в A)">21:55(из B в A)</option></code>
+<code></select></code>
+
 
 Если выбрано время "из A в B и обратно в А", то должен показаться дополнительный селект, в котором можно будет выбрать обратное время. Обратите внимание, что время не должно пересекаться. Это значит, что следует учитывать, что если путь из А в В был выбран в 14:00, то обратный путь возможен только по прибытию на место в пункт В.
 
 Далее пользователю прелагается выбрать количество билетов и нажать на кнопку "посчитать".
 
-<code>
-<label for="num">Количество билетов</label>
-<input id="num">
-<button>Посчитать</button>
-</code>
+
+<code><label for="num">Количество билетов</label></code>
+<code><input id="num"></code>
+<code><button>Посчитать</button></code>
+
 
 При клике на кнопку "Посчитать" показать результат с направлением, временем в пути, временем отправления и временем прибытия в часовом поясе пользователя.
 
